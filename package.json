@@ -1,0 +1,20 @@
+{
+  "name": "Take-A-Break",
+  "version": "1.0.0",
+  "description": "Take a break whike wfh",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Take-A-Break"
+  },
+  "keywords": [],
+  "author": "ribh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.5",
+    "electron-packager": "^15.1.0"
+  },
+  "dependencies": {
+    "bootstrap-boilerplate": "0.0.3"
+  }
+}
